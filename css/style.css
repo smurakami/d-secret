@@ -49,20 +49,35 @@ a {
   margin-bottom: 50px; }
 
 #links .link {
+  width: 165px;
+  height: 28px;
+  margin-bottom: 7px;
+  margin-right: -20px;
   float: right;
   opacity: 0.5;
-  height: 35px; }
+  background-image: url("../img/link-back.png"); }
+  #links .link img {
+    display: block;
+    margin-right: 20px; }
 
 #links .link.selected {
-  opacity: 1.0; }
+  opacity: 1.0;
+  background-image: url("../img/link-selected-back.png"); }
+
+#dentsu-logo {
+  margin-bottom: 20px; }
+  #dentsu-logo img {
+    display: block;
+    margin-left: 8px; }
 
 #side-footer .link {
   width: 100%; }
 #side-footer a {
+  color: black;
   display: block;
   width: 100%;
   text-align: center;
-  font-size: 10px; }
+  font-size: 12px; }
 
 #main {
   position: relative;
