@@ -105,7 +105,9 @@ a {
   z-index: 0;
   width: 1200px;
   height: 800px;
+  overflow: scroll;
   background-image: url('../img/dentsu-back.jpg');
+  background-position: center center;
   // background-color: white;
 }
 
@@ -113,6 +115,44 @@ a {
   width: 93px;
   height: 486px;
   margin: 120px auto;
+}
+
+#takumis {
+  margin-top: 20px;
+  color: white;
+  .takumi {
+    margin: 10px;
+    width: 280px;
+    height: 550px;
+    float: left;
+  }
+  .picture {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    img {
+      width: 200px;
+      height: 200px;
+    }
+  }
+  .name {
+    margin: 0 20px;
+  }
+  .master {
+    margin: 0 20px;
+  }
+  .text {
+    margin: 0 20px;
+  }
+}
+
+#info {
+  width: 100%;
+  video {
+    display: block;
+    margin: 150px auto 0px;
+  }
 }
 
 
