@@ -121,3 +121,12 @@ a {
   #info video {
     display: block;
     margin: 150px auto 0px; }
+
+#charm {
+  margin: 40px;
+  color: white; }
+  #charm img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: auto; }
